@@ -27,4 +27,28 @@ STRUCTURES USED:
 3) stack for the evaluation of the arithmetic 
 expressions(reversed polish notation).
 
-##############################################
+MISSING ELEMENTS:
+1) WHILE,DONE,PUSH,POP
+2) &&,||
+3) Can't work in REPL
+################################################
+
+Example of the syntax:
+LET count
+READ count
+IF count < 0
+GOTO end
+ENDIF
+
+LET sum
+sum = 0
+WHILE count > 0
+LET x
+READ x
+sum = sum + x
+count = count - 1
+DONE
+PRINT sum
+
+LABEL end
+
