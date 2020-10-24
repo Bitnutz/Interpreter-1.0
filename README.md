@@ -2,7 +2,7 @@
 
 **BRIEF DESCRIPTION:**
 
-The project is derived in two vital parts:
+The project is divided in two vital parts:
 1) Tokenizer- breaks the input into tokens,
 which are saved in a queue
 
