@@ -1,0 +1,10 @@
+*.sln
+pch.cpp
+pch.h
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+Debug/
+.vs
+*.zip
+*.PNG

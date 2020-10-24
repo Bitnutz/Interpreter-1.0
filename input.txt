@@ -1,0 +1,13 @@
+LET a_b
+READ a_b 
+IF ! a_b 
+LET b = 1
+PRINT b
+ELSE
+LET b = 99
+PRINT b 
+ENDIF
+a_b = a_b * 100 
+PRINT a_b 
+PRINT a
+PRINT c 
