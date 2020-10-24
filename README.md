@@ -9,13 +9,13 @@ which are saved in a queue
 2) Interpreter - reads the tokens one by one 
 and desides what to do with them.
 
-##############################################
+
 NOTES WHILE USING:
 1) It is required to put intervals after every 
 Token, even after the last.(the Tokenizer design
 requires it)
 
-##############################################
+
 STRUCTURES USED:
 1) Queue for the token list
    -pros:
